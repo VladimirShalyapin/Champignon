@@ -14,6 +14,8 @@ summary(cap_diameter_big)
 summary(mass_big)
 summary(cap_diameter_small)
 summary(mass_small)
+sum(mass_big)
+sum(mass_small)
 
 # Building a graph
 # Построение графика
