@@ -18,7 +18,7 @@ def gray_image(x):
     return na_image_gray, image_gray
 
 # облегчение работы с единичными файлами путем оптимизации ввода названия файла
-name_file = str('11')
+name_file = str('namefile')
 
 # в функцию размещается обрабатываемое изображение 
 na_image_gray, image_gray = gray_image(name_file + ".JPG")
