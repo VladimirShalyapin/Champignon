@@ -21,5 +21,8 @@ image_resized = resize(image, (image.shape[0] // 77, image.shape[1] // 124), ant
  
 # визуализация полученного изображения
 print(image_resized.shape)
-plt.imshow(image_resized )
+plt.imshow(image_resized)
 plt.show()
+
+# сохраняем результат преобразования
+plt.imsave('new_namefile.JPG', image_resized)
